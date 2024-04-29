@@ -28,15 +28,16 @@ html{
 }
 
 body{
+    display: flex;
+    justify-content: center;
     position: relative;
-  font-size: clamp(1rem, 5vmin, 1.5rem);
-  background: var(--light-color);
-  background-size: cover;
-  background-repeat: no-repeat;
+    font-size: clamp(1rem, 5vmin, 1.5rem);
+    background: var(--light-color);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 main{
-    display: flex;
     flex-direction: column;
     gap: min(12rem, 10vw);
 }
@@ -55,8 +56,9 @@ ul{
 }
 
 a{
-    text-decoration: underline;
+    text-decoration: none;
     cursor: pointer;
+    color: #2D211C;
 }
 
 a
@@ -107,6 +109,7 @@ p{
 .btn__primary{
     background-color: var(--button-color);
 }
+
 .btn__primary:hover{
     background-color: transparent;
     border-color: var(--button-color);
