@@ -1,0 +1,39 @@
+.navbar__btn{
+    border: 1px solid var(--light-color);
+    background: transparent;
+}
+
+.navbar__btn:hover{
+    background-color: transparent;
+    border-color: var(--button-color);
+    background-color: var(--light-color);
+    border: 1.5px solid var(--button-color);
+}
+
+.slider__btn{
+    background-color: transparent;
+    border: none;
+    padding: 8px;
+    color: var(--primary-color);
+}
+
+.slider__btn:hover{
+    background-color: transparent;
+    border: none;
+    color: var(--font-color);
+}
+
+.profile__btn{
+    padding: 7px;
+    align-items: center;
+    background-color: var(--font-color);
+    border: none;
+}
+
+.profile__btn:hover{
+    border: none;
+}
+
+.btn__categories{
+    margin-top: 36px;
+}

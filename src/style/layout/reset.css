@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap');
+
+*,
+
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    -webkit-box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #efe1d4;
+    --dark-color: #2D211C;
+    --accent-color: #5F493F;
+    --light-color: #F9F8F6;
+    --font-color: #734f36;
+    --button-color: #cfa784;
+    --blue-color: #475461;
+}
+
+/* px , rem , em , pt , percent */
+html{
+    font-size: 62.5%;
+    font-family: 'Lora', serif ,"Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: clamp(1rem, 5vmin, 1.5rem);
+    background: var(--light-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main{
+    flex-direction: column;
+    gap: min(12rem, 10vw);
+}
+
+button{
+    cursor: pointer;
+    font-family: inherit;
+}
+
+img{
+    object-fit: cover;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #2D211C;
+}
+
+a
+
+h1, h2, h3, h4, h5{
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1{
+    color: var(--font-color);
+    font-size: 30px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.right__header h1{
+    margin-bottom: 1rem;
+    color: var(--font-color);
+}
+
+.container {
+    width: 90%;
+    margin: 2rem auto;
+    max-width: 1100px;
+}
+
+.btn{
+    font-family: inherit;
+    font-style: bold;
+    padding: 0.75rem 1.5rem;
+    align-items: center;
+    border-radius: 1rem;
+    outline: 0;
+    border: none;
+    box-sizing: none;
+    transition: all .3s ease;
+    -webkit-transition: all 0.5s ease;
+    background-color: var(--button-color);
+    border:1.5px solid var(--button-color);
+    color: var(--blue-color);
+    cursor: pointer;
+}
+
+/* BEM */   
+
+.btn__primary{
+    background-color: var(--button-color);
+}
+
+.btn__primary:hover{
+    background-color: transparent;
+    border-color: var(--button-color);
+    background-color: var(--light-color);
+    border: 1.5px solid var(--button-color);
+}

@@ -1,0 +1,105 @@
+.collection--wrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px , 1fr));
+    justify-content: space-around;
+    align-items: center;
+    grid-gap: 28px;
+}
+
+.collection--wrapper h1{
+    color: var(--blue-color);
+}
+
+.collection--wrapper a{
+    color: var(--blue-color);
+    font-size: 18px;
+}
+
+.collection--wrapper p{
+    color: var(--font-color);
+    font-weight: bold;
+    font-size: 19px;
+    margin: 10px 0px;
+}
+
+.collection--wrapper__left{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.collection--box{
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position:relative;
+}
+
+.box1{
+    background-image: url("./../../images/two.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.box2{
+    background-image: url("./../../images/three.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.box3{
+    background-image: url("./../../images/one.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.box1 , .box2{
+    height: 300px;
+}
+
+.box3{
+    height: 628px;
+}
+
+.collection--box__detail{
+    display: flex;
+    position: absolute;
+    width:100%;
+    background:rgba(237, 237, 237, 0.5);
+    height:50%;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.col__link:hover{
+    transform: translateY(-0.5rem) translateX(0.5rem);
+}
+
+@media (max-width: 830px){
+    .box3 img{
+        position: relative;
+        top: 16px;
+    }
+    .box2 img{
+        border-bottom-right-radius: 0px;
+    }
+}
+@media (max-width: 360px) {
+    .collection--box img{
+        display: none;
+    }
+    .collection--box 
+    {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 290px;
+    }
+}

@@ -1,0 +1,114 @@
+#sale{    
+    background-color: var(--primary-color);
+    max-height: 502px;
+}
+
+.sale__wrapper{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sale__wrapper p {
+    color: gray;
+    margin-bottom: 2.5rem;
+}
+
+.sale__box{
+    position: relative;
+    top: -420px;
+    display: flex;
+    justify-content: center;
+}
+
+.sale__wrapper--mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30PX;
+    border: 15PX solid rgba(66, 64, 64, 0.5);
+    width: 430PX;
+    height: auto;
+    padding: 50PX 10px;
+    z-index: 999;
+    background-color: var(--primary-color);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.sale__wrapper--mid h3{
+    color: var(--blue-color);
+}
+
+.sala__h1{
+    color: var(--font-color);
+    font-size: 30px;
+    text-align: center;
+}
+
+.sale__wrapper--mid p{
+    color: gray;
+    text-align: center;
+}
+
+.sala__h2{
+    font-size: 50px;
+    font-style: italic;
+    color: #b0967e;
+}
+
+.sale__wrapper--mid span{
+    color: var(--font-color);
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+
+.sale__wrapper--right{
+    z-index: 999;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.sale__wrapper img{
+    height: 500px;
+    width: 300px;
+    object-fit: contain;
+}
+
+.sale__wrapper--left img{
+    position: relative;
+    top: -3px;
+}
+.sale__wrapper--right img{
+    position: relative;
+    top: -20px;
+}
+
+@media (max-width: 910px) {
+    #sale{    
+        background-color: var(--light-color);
+    }
+    .sale__wrapper img{
+        display: none;
+    }
+    .sala__h2{
+        font-size: 30px;
+    }
+    .sale__box{
+        position: relative;
+        top: 0px;
+        display: flex;
+        justify-content: center;
+    }
+}
