@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink, Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 import ProfileOneRemoveBg from "../images/profile1-removebg-preview.png";
 import ProfileTwo from "../images/profile2.png";
@@ -50,7 +50,7 @@ class Home extends React.Component{
                                 <h1>Flower shirt summer vibe</h1>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tempora optio nobis corrupti velit?</p>
                                 <div className="link__add">                  
-                                    <NavLink>Add to Cart <i className="fa-solid fa-up-right-from-square"></i></NavLink>
+                                    <Link>Add to Cart <i className="fa-solid fa-up-right-from-square"></i></Link>
                                 </div>
                             </div>
 
@@ -161,7 +161,7 @@ class Home extends React.Component{
                                     <div className="collection--box__detail">
                                         <h1>Women Dress</h1>
                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-                                        <div className="col__link"><NavLink>View Collection</NavLink></div>
+                                        <div className="col__link"><Link>View Collection</Link></div>
                                     </div>
 
                                 </div>
@@ -170,7 +170,7 @@ class Home extends React.Component{
                                     <div className="collection--box__detail">
                                         <h1>Accessories Collection</h1>
                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-                                        <div className="col__link"><NavLink>View Collection</NavLink></div>
+                                        <div className="col__link"><Link>View Collection</Link></div>
                                     </div>
                                 </div>
 
@@ -181,7 +181,7 @@ class Home extends React.Component{
                                     <div className="collection--box__detail">
                                         <h1>Women Dress</h1>
                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-                                        <div className="col__link"><NavLink>View Collection</NavLink></div>
+                                        <div className="col__link"><Link>View Collection</Link></div>
                                     </div>
                                 </div>
                             </div>
@@ -301,7 +301,7 @@ class Home extends React.Component{
                                     <h1>Explore The Most Trendy Fashion in Time</h1>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae nesciunt commodi ratione quos vel quam, odit assumenda voluptas soluta, dolorem quae, magnam corporis obcaecati exercitationem eaque. Maiores esse deserunt, quaerat laborum, labore ad aut harum molestias cupiditate perferendis ullam.</p>
                                     <div className="col__link">
-                                        <NavLink>Visit Our Blog</NavLink>
+                                        <Link>Visit Our Blog</Link>
                                     </div>
                                 </div>
 

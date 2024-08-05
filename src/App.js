@@ -1,6 +1,6 @@
 import Home from '../src/pages/Home';
 
-import Sidebar from './components/Sidebar';
+import Header from './components/Header';
 import Footer from './components/Footer';
 
 import { 
@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
       <Router>
-      <Sidebar />
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>

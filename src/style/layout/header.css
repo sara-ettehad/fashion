@@ -1,5 +1,4 @@
 .header__wrapper{
-    position: fixed;
     background-color: var(--light-color);
     width: 100%;
     padding: 0px 36px;
@@ -9,9 +8,6 @@
     align-items: center;
     color: var(--blue-color);
     z-index: 10000;
-}
-
-a.active {
 }
 
 .bm-burger-button {
