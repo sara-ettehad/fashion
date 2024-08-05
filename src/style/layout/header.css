@@ -1,17 +1,13 @@
-.header__wrapper{
-    background-color: var(--light-color);
+header{
     width: 100%;
     padding: 0px 36px;
     display: flex;
+    align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    color: var(--blue-color);
-    z-index: 10000;
 }
 
 .bm-burger-button {
-    position: fixed;
     width: 30px;
     height: 24px;
     top: 17px;
@@ -31,12 +27,6 @@
     padding: 0.8em;
 }
 
-.bm-menu-wrap {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-}
 
 .bm-menu {
     background: var(--primary-color);
@@ -56,9 +46,7 @@
 }
 
 .header__wrapper--mid h1{
-    position: relative;
     color: var(--font-color);
-    top: 10px;
     font-family: 'Libre Baskerville', serif;
 }
 
