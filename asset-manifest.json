@@ -1,15 +1,11 @@
 {
   "files": {
-    "main.css": "/fashion/static/css/main.0dc7c244.css",
-    "main.js": "/fashion/static/js/main.c4474dfc.js",
-    "static/js/453.f2576641.chunk.js": "/fashion/static/js/453.f2576641.chunk.js",
+    "main.css": "/fashion/static/css/main.6ed16499.css",
+    "main.js": "/fashion/static/js/main.104e290e.js",
     "static/media/profile1.jpg": "/fashion/static/media/profile1.5b50e68a8319cf44ee72.jpg",
     "static/media/alyssa-strohmann-TS--uNw-JqE-unsplash.jpg": "/fashion/static/media/alyssa-strohmann-TS--uNw-JqE-unsplash.a8db76e192fc69d53371.jpg",
     "static/media/upd1.jpg": "/fashion/static/media/upd1.79d8c284c60654534d74.jpg",
-    "static/media/three.jpg": "/fashion/static/media/three.19e6f02e35e264fe6b83.jpg",
     "static/media/sale2.jpg": "/fashion/static/media/sale2.b28dedf95e4a65504b27.jpg",
-    "static/media/two.jpg": "/fashion/static/media/two.2711e4214c83e4cd2725.jpg",
-    "static/media/one.jpg": "/fashion/static/media/one.6f67b3d3c8817cb3b91b.jpg",
     "static/media/hero.png": "/fashion/static/media/hero.a3e97af78c809994c088.png",
     "static/media/cloth1.png": "/fashion/static/media/cloth1.b2ce69996caf848d2c26.png",
     "static/media/profile1-removebg-preview.png": "/fashion/static/media/profile1-removebg-preview.51f3a3378063375b89b1.png",
@@ -19,12 +15,11 @@
     "static/media/cloth4-removebg-preview (1).png": "/fashion/static/media/cloth4-removebg-preview (1).815c1deda875b33fc062.png",
     "static/media/sale1.png": "/fashion/static/media/sale1.135aeff53fa33a88951d.png",
     "index.html": "/fashion/index.html",
-    "main.0dc7c244.css.map": "/fashion/static/css/main.0dc7c244.css.map",
-    "main.c4474dfc.js.map": "/fashion/static/js/main.c4474dfc.js.map",
-    "453.f2576641.chunk.js.map": "/fashion/static/js/453.f2576641.chunk.js.map"
+    "main.6ed16499.css.map": "/fashion/static/css/main.6ed16499.css.map",
+    "main.104e290e.js.map": "/fashion/static/js/main.104e290e.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dc7c244.css",
-    "static/js/main.c4474dfc.js"
+    "static/css/main.6ed16499.css",
+    "static/js/main.104e290e.js"
   ]
 }
