@@ -1,0 +1,72 @@
+header{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header__wrapper--first{
+    width: 20%;
+    margin: 10px 0px;
+}
+
+.header__wrapper--first ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type:none;
+}
+
+.bm-item-list{
+    padding: 0.8em;
+    text-decoration: none;
+}
+
+.header__wrapper--first a{
+    color: #2D211C;
+    text-decoration: none;
+}
+
+.header__wrapper--mid{
+    text-align: center;
+}
+
+.header__wrapper--mid h1{
+    color: #734f36;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.header__wrapper--mid sub{
+    color: #2D211C;
+    font-family: 'Libre Baskerville', serif;
+    position: relative;
+    top: -18px;
+}
+
+.header__wrapper--right{
+    margin: 15px;
+}
+
+.signup__btn{
+    font-family: inherit;
+    font-style: bold;
+    padding: 0.5rem 1rem;
+    margin: 5px 5px;
+    align-items: center;
+    border-radius: 1rem;
+    outline: 0;
+    border: none;
+    box-sizing: none;
+    transition: all .3s ease;
+    -webkit-transition: all 0.5s ease;
+    background-color: transparent;
+    border-color: #cfa784;
+    background-color: #F9F8F6;
+    color: #2D211C;
+    cursor: pointer;
+}
+
+.signup__btn:hover{
+    background-color: #F9F8F6;
+    border: 1.5px solid #cfa784;
+}

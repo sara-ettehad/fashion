@@ -1,16 +1,22 @@
 import React from 'react';
 
+import { CiSearch } from "react-icons/ci";
+import { SlBasket } from "react-icons/sl";
+
+
+import "../style/header.css";
+
 const Header = () => {
 
     return (
         <header>
-            <nav>
+            <div className="header__wrapper--first">
                 <ul>
-                    <a className="bm-item-list" href="/" activeClassName="active">New Arival</a>
-                    <a className="bm-item-list" href="/" activeClassName="active">Sales</a>
-                    <a className="bm-item-list" href="/" activeClassName="active">About</a>
+                    <li className="bm-item-list"><a href="/">New Arival</a></li>
+                    <li className="bm-item-list"><a href="/">Sales</a></li>
+                    <li className="bm-item-list"><a href="/">About</a></li>
                 </ul>
-            </nav>
+            </div>
 
             <div className="header__wrapper--mid">
 
@@ -20,14 +26,20 @@ const Header = () => {
             </div>
             
             <div className="header__wrapper--right">
+
+                <button type="button" className="signup__btn">
+                    <CiSearch/>
+                </button>
                 
-                <button type="button" className="btn btn__primary navbar__btn signup">
+                <button type="button" className="signup__btn">
                     Sign up
                 </button>
-                <button type="button" className="btn btn__primary navbar__btn login">
+                <button type="button" className="signup__btn">
                     Login
                 </button>
-                
+                <button type="button" className="signup__btn">
+                    <SlBasket/>
+                </button>
             </div>
 
         </header>

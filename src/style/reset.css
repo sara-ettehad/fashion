@@ -11,7 +11,7 @@
 }
 
 :root{
-    --primary-color: #efe1d4;
+    --primary-color: hsl(29, 46%, 88%);
     --dark-color: #2D211C;
     --accent-color: #5F493F;
     --light-color: #F9F8F6;
@@ -42,14 +42,7 @@ main{
     gap: min(12rem, 10vw);
 }
 
-button{
-    cursor: pointer;
-    font-family: inherit;
-}
 
-img{
-    object-fit: cover;
-}
 
 ul{
     list-style: none;

@@ -1,0 +1,13 @@
+.container{
+    font-size: 65%;
+    font-family: 'Lora', serif ,"Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    align-items: center;
+    background: #F9F8F6;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
