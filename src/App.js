@@ -1,4 +1,4 @@
-import Home from '../src/pages/Home';
+import Home from './pages/Home';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -19,7 +19,7 @@ function App() {
       <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/fashion" element={<Home />} />
       </Routes>
       <Footer />
       </Router>
