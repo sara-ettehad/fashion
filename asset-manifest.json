@@ -1,25 +1,16 @@
 {
   "files": {
-    "main.css": "/fashion/static/css/main.6ed16499.css",
-    "main.js": "/fashion/static/js/main.104e290e.js",
-    "static/media/profile1.jpg": "/fashion/static/media/profile1.5b50e68a8319cf44ee72.jpg",
-    "static/media/alyssa-strohmann-TS--uNw-JqE-unsplash.jpg": "/fashion/static/media/alyssa-strohmann-TS--uNw-JqE-unsplash.a8db76e192fc69d53371.jpg",
-    "static/media/upd1.jpg": "/fashion/static/media/upd1.79d8c284c60654534d74.jpg",
-    "static/media/sale2.jpg": "/fashion/static/media/sale2.b28dedf95e4a65504b27.jpg",
+    "main.css": "/fashion/static/css/main.37a64589.css",
+    "main.js": "/fashion/static/js/main.b52d41e9.js",
     "static/media/hero.png": "/fashion/static/media/hero.a3e97af78c809994c088.png",
-    "static/media/cloth1.png": "/fashion/static/media/cloth1.b2ce69996caf848d2c26.png",
     "static/media/profile1-removebg-preview.png": "/fashion/static/media/profile1-removebg-preview.51f3a3378063375b89b1.png",
-    "static/media/cloth3-removebg-preview.png": "/fashion/static/media/cloth3-removebg-preview.703bb4ddf6ceae87e396.png",
-    "static/media/toa-heftiba-mAxyjlOwdFk-unsplash-removebg-preview.png": "/fashion/static/media/toa-heftiba-mAxyjlOwdFk-unsplash-removebg-preview.85335c751d37a17ff833.png",
     "static/media/profile2.png": "/fashion/static/media/profile2.2e60fcb31164222ea90f.png",
-    "static/media/cloth4-removebg-preview (1).png": "/fashion/static/media/cloth4-removebg-preview (1).815c1deda875b33fc062.png",
-    "static/media/sale1.png": "/fashion/static/media/sale1.135aeff53fa33a88951d.png",
     "index.html": "/fashion/index.html",
-    "main.6ed16499.css.map": "/fashion/static/css/main.6ed16499.css.map",
-    "main.104e290e.js.map": "/fashion/static/js/main.104e290e.js.map"
+    "main.37a64589.css.map": "/fashion/static/css/main.37a64589.css.map",
+    "main.b52d41e9.js.map": "/fashion/static/js/main.b52d41e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ed16499.css",
-    "static/js/main.104e290e.js"
+    "static/css/main.37a64589.css",
+    "static/js/main.b52d41e9.js"
   ]
 }
