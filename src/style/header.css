@@ -6,6 +6,14 @@ header{
     justify-content: space-around;
 }
 
+.header__wrapper--right-nav{
+    display: none;
+}
+
+nav{
+    display: inline;
+}
+
 .header__wrapper--first ul{
     display: flex;
     flex-direction: row;
@@ -27,7 +35,6 @@ header{
     background-color: transparent;
     cursor: pointer;
     width: auto;
-    padding: 0.8em;
     text-decoration: none;
 }
 
@@ -78,4 +85,79 @@ header{
 .signup__btn:hover{
     background-color: #F9F8F6;
     border: 1.5px solid #cfa784;
+}
+
+.hamburger {
+    margin-top: 15px;
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #734f36;
+    margin: 3px 0;
+}
+
+@media (max-width: 800px) {
+    header{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav {
+        display: none;
+    }
+
+    nav.nav-open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 38px;
+        padding-right: 30px;
+        background-color: hsl(29, 46%, 88%);
+        border-radius: 5px;
+        z-index: 1000;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__wrapper--mid h1{
+        font-size: 20px;
+    }
+    
+    .header__wrapper--mid sub{
+        font-size: smaller;
+        top: -20px;
+    }
+
+    .header__wrapper--right{
+        display: none;
+    }
+
+    .header__wrapper--first ul{
+        display: flex;
+        flex-direction: column;
+        list-style-type:none;
+    }
+
+    .header__wrapper--right-nav{
+        display: block;
+        display: flex;
+        flex-direction: column;
+    }
 }

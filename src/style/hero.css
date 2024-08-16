@@ -10,6 +10,7 @@
 }
 
 .ring{
+    display: block;
     border-radius: 50%;
     height: 450px;
     width: 450px;
@@ -20,20 +21,24 @@
     position: relative;
     top: -500px;
     display: grid;
-    grid-template-columns: 1.3fr 1fr 1fr;
+    grid-template-columns: 1.16fr 1fr 1fr;
     align-items: center;
     height: 550px;
     margin: 0px 40px;
     color: #734f36;
 }
 
-.hero__wrapper img{
+.heroImage{
+    display: block;
+    padding: 0px;
     position: relative;
-    left: -50px;
 }
 
 .swiper-slide img{
     height: 100px;
+    box-shadow: 4px 2px 10px rgb(96, 94, 94);
+    border-radius: 10px;
+    border-color: #475461;
 }
 
 .swiper-wrapper{
@@ -51,26 +56,17 @@
     z-index: 999;
 }
 
-.hero__wrapper--left h4{
-    color: var(--blue-color);
-}
-
 .hero__wrapper--left h1{
     font-size: 38px;
-    margin: 1.2rem 0rem;
-    color: var(--font-color);
-}
-
-.paragraph{
-    padding-right: 100px;
+    margin: 0px;
 }
 
 .swiper-wrapper{
     display: flex;
     flex-direction: row;
-    
+    gap: 10px;
     position: relative;
-    left: 30px;
+    top: 5px;
 } 
 
 .testSwiper{
@@ -135,39 +131,41 @@
     border: 1.5px solid #F9F8F6;
 }
 
+@media (max-width: 1100px){
 
-/*
-
-
-@media (max-width: 1010px){
-
-    .hero__wrapper{
-        height: 500px;
-        display: grid;
-        grid-template-columns: 2fr 0fr 1fr;
-        gap: 25px;
-    }
-
-    .hero__wrapper--mid{
-        display: none;
-    }
-    .hero__wrapper--left{
-        width: 100%;
-        margin: 0px;
+    .hero__wrapper--left h1{
+        font-size: 28px;
     }
 }
 
 
-@media (max-width: 775px){
-
+@media (max-width: 880px){
     .hero__wrapper{
-        display: grid;
-        grid-template-columns: 1fr;
+        top: -150px;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
     }
-    .hero__wrapper--mid{
+
+    .ring{
         display: none;
     }
-    .hero__wrapper--right{
-        margin: 0px;
+
+    .heroImage{
+        display: none;
     }
-}*/
+}
+@media (max-width: 760px){
+    .hero__wrapper{
+        top: 0px;
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .ring{
+        display: none;
+    }
+
+    .heroImage{
+        display: none;
+    }
+}

@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 
 import ProfileOneRemoveBg from "../images/profile1-removebg-preview.png";
 import ProfileTwo from "../images/profile2.png";
-import heroImg from "../images/hero.png";
+import heroImg from "../images/heroone.png";
+import slideImg from "../images/hero.png";
 
 import "../style/hero.css";
 
@@ -22,7 +23,7 @@ const Home = () => {
                         <button type="button" className="btn__hero">Shop Now <i className="fa-solid fa-arrow-right"></i></button>
                     </div>
 
-                    <img src={heroImg} alt=''/>
+                    <img src={heroImg} className='heroImage' alt=''/>
 
                     <div className="hero__wrapper--right">
 
@@ -44,7 +45,7 @@ const Home = () => {
                                     <img src={ProfileTwo} alt='' />
                                 </div>
                                 <div className="swiper-slide">
-                                    <img src={heroImg} alt=''/>
+                                    <img src={slideImg} alt=''/>
                                 </div>
                             </div>
                             <div className="swiper-pagination"></div>
