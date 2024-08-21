@@ -1,32 +1,32 @@
 .navbar__btn{
-    border: 1px solid var(--light-color);
+    border: 1px solid #F9F8F6;
     background: transparent;
 }
 
 .navbar__btn:hover{
     background-color: transparent;
-    border-color: var(--button-color);
-    background-color: var(--light-color);
-    border: 1.5px solid var(--button-color);
+    border-color: #cfa784;
+    background-color: #F9F8F6;
+    border: 1.5px solid #cfa784;
 }
 
 .slider__btn{
     background-color: transparent;
     border: none;
     padding: 8px;
-    color: var(--primary-color);
+    color: hsl(29, 46%, 88%);
 }
 
 .slider__btn:hover{
     background-color: transparent;
     border: none;
-    color: var(--font-color);
+    color: #734f36;
 }
 
 .profile__btn{
     padding: 7px;
     align-items: center;
-    background-color: var(--font-color);
+    background-color: #734f36;
     border: none;
 }
 

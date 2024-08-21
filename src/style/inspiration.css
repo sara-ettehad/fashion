@@ -1,5 +1,7 @@
 .inspiration__wrapper{
+    padding: 0px 35px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     max-height: 500px;
 }
@@ -9,7 +11,7 @@
 }
 
 .inspiration__wrapper h3{
-    color: var(--blue-color);
+    color: #475461;
 }
 
 .wrapper__header--p{
@@ -30,10 +32,14 @@
     text-align: center;
 }
 
+.inspiration__wrapper--header h1{
+    color: #734f36;
+}
+
 .wrapper__left--back{
     height: 400px;
     width: 300px;
-    background-color: var(--primary-color);
+    background-color: hsl(29, 46%, 88%);
 }
 
 .inspiration__wrapper--left img{
@@ -51,7 +57,7 @@
 }
 
 .inspiration__wrapper--right h1{
-    color: var(--blue-color);
+    color: #475461;
     font-weight: 700;
     font-size: 27px;
 }
@@ -82,5 +88,60 @@
         text-align: center;
         position: relative;
         top: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .inspiration__wrapper{
+        position: relative;
+        top: -250px;
+    }
+
+    .inspiration__wrapper--header h1{
+        margin: 0px;
+    }
+
+    .inspiration__wrapper--right{
+        position: relative;
+        top: -30px;
+    }
+
+    .inspiration__wrapper--right h1{
+        margin: 0px;
+    }
+}
+
+@media (max-width: 880px) {
+    .inspiration__wrapper{
+        position: relative;
+        top: -60px;
+    }
+}
+
+@media (max-width: 763px) {
+    .inspiration__wrapper{
+        position: relative;
+        top: 250px;
+    }
+}
+
+@media (max-width: 385px) {
+    .inspiration__wrapper{
+        position: relative;
+        top: 280px;
+    }
+}
+
+@media (max-width: 363px) {
+    .inspiration__wrapper{
+        position: relative;
+        top: 320px;
+    }
+}
+
+@media (max-width: 355px) {
+    .inspiration__wrapper{
+        position: relative;
+        top: 350px;
     }
 }

@@ -3,7 +3,8 @@ header{
     flex-direction: row;
     text-align: center;
     width: 100%;
-    justify-content: space-around;
+    margin: 0px 30px;
+    justify-content: space-between;
 }
 
 .header__wrapper--right-nav{
@@ -25,6 +26,7 @@ nav{
     font-style: bold;
     padding: 0.5rem 1rem;
     margin: 5px 5px;
+    font-size: small;
     align-items: center;
     border-radius: 1rem;
     outline: 0;
@@ -39,6 +41,8 @@ nav{
 }
 
 .header__wrapper--first a{
+    font-family: inherit;
+    font-style: bold;
     color: #2D211C;
     text-decoration: none;
 }
@@ -98,15 +102,10 @@ nav{
     width: 25px;
     height: 3px;
     background-color: #734f36;
-    margin: 3px 0;
+    margin: 3px 35px;
 }
 
 @media (max-width: 800px) {
-    header{
-        display: flex;
-        justify-content: space-around;
-    }
-
     nav {
         display: none;
     }
@@ -134,6 +133,10 @@ nav{
     .hamburger {
         display: flex;
         flex-direction: column;
+    }
+
+    .header__wrapper--mid{
+        margin: 0px 35px;
     }
 
     .header__wrapper--mid h1{

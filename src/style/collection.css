@@ -1,23 +1,30 @@
-.collection--wrapper{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px , 1fr));
-    justify-content: space-around;
+#collection{
+    display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+.collection--wrapper{
+    position: relative;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px , 1fr));
+    justify-content: space-around;
     grid-gap: 28px;
+    top: -380px;
 }
 
 .collection--wrapper h1{
-    color: var(--blue-color);
+    color: #475461;
 }
 
 .collection--wrapper a{
-    color: var(--blue-color);
+    color: #475461;
     font-size: 18px;
 }
 
 .collection--wrapper p{
-    color: var(--font-color);
+    color: #734f36;
     font-weight: bold;
     font-size: 19px;
     margin: 10px 0px;
@@ -38,19 +45,19 @@
 }
 
 .box1{
-    background-image: url("./../../images/two.jpg");
+    background-image: url("../images/two.jpg");
     background-position: center;
     background-size: cover;
 }
 
 .box2{
-    background-image: url("./../../images/three.jpg");
+    background-image: url("../images/three.jpg");
     background-position: center;
     background-size: cover;
 }
 
 .box3{
-    background-image: url("./../../images/one.jpg");
+    background-image: url("../images/one.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -80,7 +87,10 @@
     transform: translateY(-0.5rem) translateX(0.5rem);
 }
 
-@media (max-width: 830px){
+@media (max-width: 880px){
+    .collection--wrapper{
+        top: -120px;
+    }
     .box3 img{
         position: relative;
         top: 16px;
@@ -89,7 +99,25 @@
         border-bottom-right-radius: 0px;
     }
 }
+
+@media (max-width: 762px){
+    .collection--wrapper{
+        top: 190px;
+    }
+}
+
+@media (max-width: 432px){
+    .collection--wrapper{
+        top: 250px;
+    }
+}
+
 @media (max-width: 360px) {
+
+    .collection--wrapper{
+        top: 290px;
+    }
+
     .collection--box img{
         display: none;
     }
@@ -101,5 +129,12 @@
         justify-content: center;
         align-items: center;
         width: 290px;
+    }
+}
+
+@media (max-width: 316px){
+    .collection--wrapper{
+        position: relative;
+        top: 330px;
     }
 }

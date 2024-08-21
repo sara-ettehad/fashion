@@ -1,11 +1,14 @@
-#sale{    
-    background-color: var(--primary-color);
+#sale{  
+    position: relative;
+    top: -300px;  
+    background-color: hsl(29, 46%, 88%);
     max-height: 502px;
 }
 
 .sale__wrapper{
-    align-items: center;
+    padding-top: 22px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -16,7 +19,7 @@
 
 .sale__box{
     position: relative;
-    top: -420px;
+    top: -500px;
     display: flex;
     justify-content: center;
 }
@@ -28,20 +31,20 @@
     flex-direction: column;
     border-radius: 30PX;
     border: 15PX solid rgba(66, 64, 64, 0.5);
-    width: 430PX;
-    height: auto;
-    padding: 50PX 10px;
+    width: 400PX;
+    height: 380px;
+    padding: 20PX 10px;
     z-index: 999;
-    background-color: var(--primary-color);
+    background-color: hsl(29, 46%, 88%);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .sale__wrapper--mid h3{
-    color: var(--blue-color);
+    color: #475461;
 }
 
 .sala__h1{
-    color: var(--font-color);
+    color: #734f36;
     font-size: 30px;
     text-align: center;
 }
@@ -58,7 +61,7 @@
 }
 
 .sale__wrapper--mid span{
-    color: var(--font-color);
+    color: #734f36;
     animation: blink-animation 1s steps(5, start) infinite;
     -webkit-animation: blink-animation 1s steps(5, start) infinite;
   }
@@ -89,15 +92,18 @@
 .sale__wrapper--left img{
     position: relative;
     top: -3px;
+    height: 100%;
 }
 .sale__wrapper--right img{
     position: relative;
     top: -20px;
 }
 
+
 @media (max-width: 910px) {
     #sale{    
-        background-color: var(--light-color);
+        margin: 0px 20px;
+        background-color: #F9F8F6;
     }
     .sale__wrapper img{
         display: none;
@@ -110,5 +116,26 @@
         top: 0px;
         display: flex;
         justify-content: center;
+    }
+}
+
+@media (max-width: 880px) {
+    #sale{    
+        position: relative;
+        top: -100px;
+    }
+}
+
+@media (max-width: 763px) {
+    #sale{    
+        position: relative;
+        top: 220px;
+    }
+}
+
+@media (max-width: 363px) {
+    #sale{    
+        position: relative;
+        top: 280px;
     }
 }

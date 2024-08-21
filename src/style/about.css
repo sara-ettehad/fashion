@@ -1,8 +1,14 @@
 #about{
-    background-color: var(--primary-color);
-    padding: 5rem 0rem;
+    background-color: hsl(29, 46%, 88%);
+    padding: 2rem 0rem;
     z-index: 999;
-    
+    position: relative;
+    top: -480px;
+}
+
+.about__grid  h4{
+    position: relative;
+    top: -30px;
 }
 
 .about__wrapper{
@@ -11,11 +17,11 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    color: var(--font-color);
+    color: #734f36;
 }
 
 .service{
-    color: var(--blue-color);
+    color: #475461;
 }
 
 .about__wrapper p{
@@ -48,7 +54,7 @@
     align-items: center;
     justify-content: center;
     font-size: 45px;
-    background-color: var(--light-color);
+    background-color: hsl(30, 37%, 93%);
     border-radius: 0.75rem;
     height: 120px;
     width: 120px;
@@ -56,4 +62,64 @@
 }
 .about__grid:hover{
     transform: translateY(-2rem);
+}
+
+@media (max-width: 880px){
+    #about{
+        position: relative;
+        top: -210px;
+    }
+}
+
+@media (max-width: 760px){
+    #about{
+        position: relative;
+        top: 130px;
+    }
+}
+
+@media (max-width: 440px){
+
+    #about{
+        position: relative;
+        top: 160px;
+    }
+}
+
+@media (max-width: 400px){
+    #about{
+        position: relative;
+        top: 200px;
+    }
+}
+
+@media (max-width: 370px){
+    #about{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 360px){
+    #about{
+        position: relative;
+        top: 220px;
+    }
+    .about__grid--img{
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 335px){
+    #about{
+        position: relative;
+        top: 250px;
+    }
+}
+
+@media (max-width: 316px){
+    #about{
+        position: relative;
+        top: 300px;
+    }
 }
