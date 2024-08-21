@@ -1,17 +1,31 @@
 {
   "files": {
-    "main.css": "/fashion/static/css/main.7bab10cd.css",
-    "main.js": "/fashion/static/js/main.d298cf97.js",
+    "main.css": "/fashion/static/css/main.bba6d503.css",
+    "main.js": "/fashion/static/js/main.18ec370a.js",
+    "static/media/profile1.jpg": "/fashion/static/media/profile1.5b50e68a8319cf44ee72.jpg",
+    "static/media/alyssa-strohmann-TS--uNw-JqE-unsplash.jpg": "/fashion/static/media/alyssa-strohmann-TS--uNw-JqE-unsplash.a8db76e192fc69d53371.jpg",
+    "static/media/upd1.jpg": "/fashion/static/media/upd1.79d8c284c60654534d74.jpg",
+    "static/media/three.jpg": "/fashion/static/media/three.19e6f02e35e264fe6b83.jpg",
+    "static/media/two.jpg": "/fashion/static/media/two.2711e4214c83e4cd2725.jpg",
+    "static/media/one.jpg": "/fashion/static/media/one.6f67b3d3c8817cb3b91b.jpg",
     "static/media/hero.png": "/fashion/static/media/hero.a3e97af78c809994c088.png",
+    "static/media/cloth1.png": "/fashion/static/media/cloth1.b2ce69996caf848d2c26.png",
     "static/media/heroone.png": "/fashion/static/media/heroone.762d89b48fa66f72ae88.png",
     "static/media/profile1-removebg-preview.png": "/fashion/static/media/profile1-removebg-preview.51f3a3378063375b89b1.png",
+    "static/media/cloth3-removebg-preview.png": "/fashion/static/media/cloth3-removebg-preview.703bb4ddf6ceae87e396.png",
+    "static/media/toa-heftiba-mAxyjlOwdFk-unsplash-removebg-preview.png": "/fashion/static/media/toa-heftiba-mAxyjlOwdFk-unsplash-removebg-preview.85335c751d37a17ff833.png",
     "static/media/profile2.png": "/fashion/static/media/profile2.2e60fcb31164222ea90f.png",
+    "static/media/cloth4-removebg-preview (1).png": "/fashion/static/media/cloth4-removebg-preview (1).815c1deda875b33fc062.png",
+    "static/media/sale2.png": "/fashion/static/media/sale2.9d658cec6cbbee474a64.png",
+    "static/media/access3.png": "/fashion/static/media/access3.d7487f799fea9974b21f.png",
+    "static/media/access1.png": "/fashion/static/media/access1.7dc3bd5c92432ae71f53.png",
+    "static/media/sale1.png": "/fashion/static/media/sale1.135aeff53fa33a88951d.png",
     "index.html": "/fashion/index.html",
-    "main.7bab10cd.css.map": "/fashion/static/css/main.7bab10cd.css.map",
-    "main.d298cf97.js.map": "/fashion/static/js/main.d298cf97.js.map"
+    "main.bba6d503.css.map": "/fashion/static/css/main.bba6d503.css.map",
+    "main.18ec370a.js.map": "/fashion/static/js/main.18ec370a.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bab10cd.css",
-    "static/js/main.d298cf97.js"
+    "static/css/main.bba6d503.css",
+    "static/js/main.18ec370a.js"
   ]
 }
