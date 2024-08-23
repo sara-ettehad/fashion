@@ -68,7 +68,9 @@ const Home = () => {
                                 <FaArrowLeft className='arrow'/>
                                 <FaArrowRight className='arrow'/>
                             </div>
-                            <div className="swiper-wrapper">
+                            <div 
+                                className="swiper-wrapper"
+                            >
                                 <div className="swiper-slide">
                                     <img src={ProfileOneRemoveBg} alt=''/>
                                 </div>
@@ -198,7 +200,7 @@ const Home = () => {
                 <div className="categories__wrapper">
 
                     <div className="categories__wrapper--header">
-                        <h3 className="service">Our Collection</h3>
+                        <h3 className="service">Our Categories</h3>
                         <h1>Choose by Categories</h1>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, minus! Voluptas exercitationem ullam accusamus maxime beatae?</p>
                     </div>

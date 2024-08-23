@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll'; // Import ScrollLink
 
 import { CiSearch } from "react-icons/ci";
 import { SlBasket } from "react-icons/sl";
@@ -10,7 +10,6 @@ import "../style/header.css";
 const Header = () => {
 
     const [isOpen, setIsOpen] = useState(false);
-    const navigate = useNavigate();
 
 
 
@@ -23,9 +22,36 @@ const Header = () => {
             <div className="header__wrapper--first">
                 <nav  className={isOpen ? 'nav-open' : ''}>
                     <ul>
-                        <li className="bm-item-list"><a href="/">New Arival</a></li>
-                        <li className="bm-item-list"><a href="/">Sales</a></li>
-                        <li className="bm-item-list"><a href="/">About</a></li>
+                        <li className="bm-item-list">
+                            <ScrollLink 
+                                to="about"
+                                smooth={true} 
+                                duration={500}
+                                onClick={toggleMenu} // Close menu on click (if needed)
+                            >
+                                About
+                            </ScrollLink>
+                        </li>
+                        <li className="bm-item-list">
+                            <ScrollLink 
+                                to="sale"
+                                smooth={true} 
+                                duration={500}
+                                onClick={toggleMenu} // Close menu on click (if needed)
+                            >
+                                Sales
+                            </ScrollLink>
+                        </li>
+                        <li className="bm-item-list">   
+                            <ScrollLink 
+                                to="collection"
+                                smooth={true} 
+                                duration={500}
+                                onClick={toggleMenu}
+                            >
+                                Collection
+                            </ScrollLink>
+                        </li>
                         <div className="header__wrapper--right-nav">
 
                             <button type="button" className="signup__btn">

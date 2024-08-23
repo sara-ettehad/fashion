@@ -2,7 +2,7 @@ header{
     display: flex;
     flex-direction: row;
     text-align: center;
-    width: 100%;
+    width: 90%;
     margin: 0px 30px;
     justify-content: space-between;
 }
@@ -64,7 +64,7 @@ nav{
 }
 
 .header__wrapper--right{
-    margin: 15px;
+    margin: 15px 0px;
 }
 
 .signup__btn{

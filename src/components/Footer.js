@@ -1,19 +1,37 @@
-import React from "react";
+import React, { useState } from 'react';
+
+import { Link as ScrollLink } from 'react-scroll'; // Import ScrollLink
 
 import "../style/footer.css"
 
-class Footer extends React.Component{
-    render(){
-        return(
-            <div class="container">
+const Footer = () => {
+    
+    const [isOpen, setIsOpen] = useState(false);
 
-                <div class="bottom__totop">
-                    <button id="myBtn" title="top" >Top</button>
-                </div>
 
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+        
+    return(
+        <div class="container">
+
+            <div class="bottom__totop">
+                <button id="myBtn" title="top" >
+                    <ScrollLink 
+                        to="hero"
+                        smooth={true} 
+                        duration={500}
+                        onClick={toggleMenu} // Close menu on click (if needed)
+                    >
+                    Top
+                    </ScrollLink>
+                </button>
             </div>
-        )
-    }
+
+        </div>
+    )
 }
 
 export default Footer;
