@@ -137,18 +137,6 @@
     border: 1.5px solid #F9F8F6;
 }
 
-.testSwiper{
-    display: flex;
-    justify-content: space-between;
-}
-
-.arrow{
-    font-size: small;
-}
-
-.hide-swiper{
-    display: block;
-}
 
 @media (max-width: 1100px){
     .hero__wrapper--left h1{
@@ -158,9 +146,6 @@
         max-width: 220px;
     }
 
-    .hide-swiper{
-        display: none;
-    }
 }
 
 @media (max-width: 880px){
@@ -177,17 +162,8 @@
     .heroImage{
         display: none;
     }
-    
-    .hide-swiper{
-        display: block;
-    }
 }
 
-@media (max-width: 810px){
-    .one{
-        display: none;
-    }
-}
 
 @media (max-width: 760px){
     .hero__wrapper{
@@ -203,10 +179,6 @@
     .heroImage{
         display: none;
     }
-        
-    .hide-swiper{
-        display: block;
-    }
 
     .btn__hero{
         position: relative;
@@ -217,9 +189,5 @@
 @media (max-width: 440px) {
     .testSwiper{
         max-width: 200px;
-    }
-
-    .hide-swiper{
-        display: none;
     }
 }

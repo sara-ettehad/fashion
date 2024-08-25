@@ -5,8 +5,6 @@ import ProfileOneRemoveBg from "../images/profile1-removebg-preview.png";
 import ProfileTwo from "../images/profile2.png";
 import heroImg from "../images/heroone.png";
 import slideImg from "../images/hero.png";
-import accessImg from "../images/access3.png";
-import access1Img from "../images/access1.png";
 import clothThree from "../images/cloth3-removebg-preview.png";
 import toa from "../images/toa-heftiba-mAxyjlOwdFk-unsplash-removebg-preview.png";
 import clothOne from "../images/cloth1.png";
@@ -17,9 +15,6 @@ import profOne from "../images/profile1.jpg";
 import upd from "../images/upd1.jpg";
 import alyssa from "../images/alyssa-strohmann-TS--uNw-JqE-unsplash.jpg";
 
-
-import { FaArrowLeft } from "react-icons/fa";
-import { FaArrowRight } from "react-icons/fa";
 import { PiTShirt } from "react-icons/pi";
 import { GiHandTruck } from "react-icons/gi";
 import { TbTruckReturn } from "react-icons/tb";
@@ -38,6 +33,7 @@ import "../style/updatee.css";
 
 const Home = () => {
     return (
+
         <body>
 
             <section id="hero">
@@ -64,10 +60,6 @@ const Home = () => {
                         </div>
 
                         <div className="swiper ">
-                            <div className="testSwiper">
-                                <FaArrowLeft className='arrow'/>
-                                <FaArrowRight className='arrow'/>
-                            </div>
                             <div 
                                 className="swiper-wrapper"
                             >
@@ -79,12 +71,6 @@ const Home = () => {
                                 </div>
                                 <div className="swiper-slide">
                                     <img src={slideImg} alt=''/>
-                                </div>
-                                <div className="swiper-slide hide-swiper">
-                                    <img src={accessImg} alt=''/>
-                                </div>
-                                <div className="swiper-slide hide-swiper one">
-                                    <img src={access1Img} alt=''/>
                                 </div>
                             </div>
                             <div className="swiper-pagination"></div>
@@ -323,8 +309,11 @@ const Home = () => {
                         </div>
 
                     </div>
+                    
 
                 </div>
+
+
             </section>
 
         </body>
