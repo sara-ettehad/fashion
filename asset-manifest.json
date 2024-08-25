@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fashion/static/css/main.6ae332b7.css",
-    "main.js": "/fashion/static/js/main.ec9c40a4.js",
+    "main.css": "/fashion/static/css/main.a5252691.css",
+    "main.js": "/fashion/static/js/main.ce52c4f3.js",
     "static/media/profile1.jpg": "/fashion/static/media/profile1.5b50e68a8319cf44ee72.jpg",
     "static/media/alyssa-strohmann-TS--uNw-JqE-unsplash.jpg": "/fashion/static/media/alyssa-strohmann-TS--uNw-JqE-unsplash.a8db76e192fc69d53371.jpg",
     "static/media/upd1.jpg": "/fashion/static/media/upd1.79d8c284c60654534d74.jpg",
@@ -17,15 +17,13 @@
     "static/media/profile2.png": "/fashion/static/media/profile2.2e60fcb31164222ea90f.png",
     "static/media/cloth4-removebg-preview (1).png": "/fashion/static/media/cloth4-removebg-preview (1).815c1deda875b33fc062.png",
     "static/media/sale2.png": "/fashion/static/media/sale2.9d658cec6cbbee474a64.png",
-    "static/media/access3.png": "/fashion/static/media/access3.d7487f799fea9974b21f.png",
-    "static/media/access1.png": "/fashion/static/media/access1.7dc3bd5c92432ae71f53.png",
     "static/media/sale1.png": "/fashion/static/media/sale1.135aeff53fa33a88951d.png",
     "index.html": "/fashion/index.html",
-    "main.6ae332b7.css.map": "/fashion/static/css/main.6ae332b7.css.map",
-    "main.ec9c40a4.js.map": "/fashion/static/js/main.ec9c40a4.js.map"
+    "main.a5252691.css.map": "/fashion/static/css/main.a5252691.css.map",
+    "main.ce52c4f3.js.map": "/fashion/static/js/main.ce52c4f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ae332b7.css",
-    "static/js/main.ec9c40a4.js"
+    "static/css/main.a5252691.css",
+    "static/js/main.ce52c4f3.js"
   ]
 }
