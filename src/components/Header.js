@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll'; // Import ScrollLink
-
-import { CiSearch } from "react-icons/ci";
-import { SlBasket } from "react-icons/sl";
 
 
 import "../style/header.css";
@@ -16,6 +14,7 @@ const Header = () => {
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
+
 
     return (
         <header>
@@ -53,20 +52,17 @@ const Header = () => {
                             </ScrollLink>
                         </li>
                         <div className="header__wrapper--right-nav">
-
-                            <button type="button" className="signup__btn">
-                                <CiSearch/>
-                            </button>
                 
-                            <button type="button" className="signup__btn">
-                                Sign up
-                            </button>
-                            <button type="button" className="signup__btn">
-                                Login
-                            </button>
-                            <button type="button" className="signup__btn">
-                                <SlBasket/>
-                            </button>
+                            <Link to="/signup">
+                                <button type="button" className="signup__btn">
+                                    Sign Up
+                                </button>
+                            </Link>
+                            <Link to="/signin">
+                                <button type="button" className="signup__btn">
+                                    Sign In
+                                </button>
+                            </Link>
                         </div>
                     </ul>
                 </nav>
@@ -77,28 +73,28 @@ const Header = () => {
                 </div>
             </div>
 
-            <div className="header__wrapper--mid">
+            <Link to="/fashion" className="femme">
+                <div className="header__wrapper--mid">
 
-                <h1>FEEME</h1>
-                <sub>Best fashion shoping experiences</sub>
+                    <h1>FEMME</h1>
+                    <sub>Best fashion shoping experiences</sub>
 
-            </div>
+                </div>
+            </Link>
+
             
             <div className="header__wrapper--right">
-
-                <button type="button" className="signup__btn">
-                    <CiSearch/>
-                </button>
                 
+            <Link to="/signup">
                 <button type="button" className="signup__btn">
-                    Sign up
+                    Sign Up
                 </button>
+            </Link>
+            <Link to="/signin">
                 <button type="button" className="signup__btn">
-                    Login
+                    Sign In
                 </button>
-                <button type="button" className="signup__btn">
-                    <SlBasket/>
-                </button>
+            </Link>
             </div>
 
         </header>

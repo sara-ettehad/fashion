@@ -7,6 +7,10 @@ header{
     justify-content: space-between;
 }
 
+.femme{
+    text-decoration: none;
+}
+
 .header__wrapper--right-nav{
     display: none;
 }
@@ -49,6 +53,8 @@ nav{
 
 .header__wrapper--mid{
     text-align: center;
+    position: relative;
+    left: -20px;
 }
 
 .header__wrapper--mid h1{
